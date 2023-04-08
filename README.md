@@ -12,14 +12,19 @@ Ce bot a été utilisé pour les promotions de 1ère et 2ème année d'Informati
 
 ## Installation & lancement
 
-Une fois nodejs installé, utilisez la commande suivante pour installer les modules :
+Pour installer le bot, procédez comme tel :
+- Installer nodejs si ce n'est pas le cas
+- Ajouter un token valable dans le fichier `config.json` 
+- Ajouter les logs de bdd dans le fichier `db.js`
+- Entrer la comande suivante
 
 ```bash
 npm install
 ```
-Puis pour démarrer le bot :
+
+Puis, pour démarrer le bot, entrer la commande suivante :
 ```bash
 node index.js
 ```
 # Précisions
-Ce projet à été mon premier bot discord, réalisé en début d'année 2021. A ce moment je ne connaissais que peu l'API discord ainsi que la conception de base de données, c'est pourquoi le code peut ne pas êtreà cohérent ou optimisé.
+Ce projet à été mon premier bot discord, réalisé en début d'année 2021. A ce moment je ne connaissais que peu l'API discord ainsi que la conception de base de données, c'est pourquoi le code peut ne pas être cohérent ou optimisé.
